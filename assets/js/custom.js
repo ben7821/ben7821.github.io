@@ -123,3 +123,19 @@ function topFunction() {
 // <button onclick="switchNightDay();" id="NigthDayBtn">
 // <span id="icon" class="button fa fa-moon-o"></span>
 // </button>
+
+
+$(document).ready(function() {
+  function resizeIframe() {
+      var containerHeight = $('#iframeContainer').height();
+      $('#googleSheet').height(containerHeight);
+  }
+
+  // Appeler resizeIframe au chargement de la page
+  resizeIframe();
+
+  // Appeler resizeIframe à chaque redimensionnement de la fenêtre
+  $(window).resize(function() {
+      resizeIframe();
+  });
+});
