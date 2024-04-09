@@ -19,7 +19,7 @@ body {
 }
 
 #page-wraper {
-  background: url(../images/page-bg2.jpg) no-repeat center center fixed;
+  background: url(../images/page-bg.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -55,6 +55,7 @@ h4 {
   font-weight: 700;
   color: #fff;
   letter-spacing: 0.25px;
+  text-transform:uppercase;
 }
 
 img {
@@ -109,7 +110,7 @@ html {
 }
 
 .main-nav li:last-child a {
-  border-bottom: 2px solid #fff;
+  border-bottom: 2px solid #000000;
 }
 
 .main-nav li {
@@ -122,10 +123,10 @@ html {
   display: inline-block;
   font-size: 16px;
   font-weight: 700;
-  color: #fff;
+  color: #000000;
   width: 100%;
   transition: all 0.5s;
-  border-top: 2px solid #fff;
+  border-top: 2px solid #000000;
 }
 
 .main-nav li:hover a,
@@ -232,7 +233,7 @@ html {
   left: 10%;
   -webkit-transition: -webkit-transform 233ms cubic-bezier(0, 0, 0.21, 1);
   -webkit-overflow-scrolling: touch;
-  background: linear-gradient(135deg, var(--black-red) 0%, var(--red) 100%);
+  background:rgb(209, 207, 207);
   box-sizing: border-box;
   height: 100vh;
   max-height: 100vh !important;
@@ -311,6 +312,7 @@ html {
   font-size: 32px;
   font-weight: 700;
   color: #fff;
+  text-transform:uppercase;
 }
 
 .section-heading .line-dec {
@@ -898,3 +900,5 @@ section.contact-me {
     transform: scale(0.9);
   }
 }
+
+

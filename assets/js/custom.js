@@ -100,22 +100,26 @@ function topFunction() {
 }
 
 
-var isNight = true;
-function switchNightDay() {
-  var bodyElt = document.getElementById('page-wraper'); 
-  var iconElt = document.getElementById('icon');
-  if (isNight) {
-      bodyElt.style.setProperty('background-image', 'url("/assets/images/page-bg.jpg")');
-      iconElt.className  = 'fa fa-sun-o';
-      isNight = false;
-  } else {
-      bodyElt.style.setProperty('background-image', 'url("/assets/images/page-bg2.jpg")');
-      iconElt.className = "fa fa-moon-o";
-      isNight = true;
-  }
-}
+// var isNight = true;
+// function switchNightDay() {
+//   var bodyElt = document.getElementById('page-wraper'); 
+//   var iconElt = document.getElementById('icon');
+//   if (isNight) {
+//       bodyElt.style.setProperty('background-image', 'url("/assets/images/page-bg.jpg")');
+//       iconElt.className  = 'fa fa-sun-o';
+//       isNight = false;
+//   } else {
+//       bodyElt.style.setProperty('background-image', 'url("/assets/images/page-bg2.jpg")');
+//       iconElt.className = "fa fa-moon-o";
+//       isNight = true;
+//   }
+// }
 
-function toggleNav() {
-    var element = document.getElementById("navOverlay");
-    element.style.display = (element.style.display == 'none') ? 'block' : 'none';
-}
+// function toggleNav() {
+//     var element = document.getElementById("navOverlay");
+//     element.style.display = (element.style.display == 'none') ? 'block' : 'none';
+// }
+
+// <button onclick="switchNightDay();" id="NigthDayBtn">
+// <span id="icon" class="button fa fa-moon-o"></span>
+// </button>
