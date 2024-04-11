@@ -471,6 +471,9 @@ button:hover {
 .service-item:hover .fourth-service-icon {
   background-image: url(../images/fourth-main-icon.png);
 }
+.service-item:hover .five-service-icon {
+  background-image: url(../images/fourth-main-icon.png);
+}
 
 /* My Work */
 
