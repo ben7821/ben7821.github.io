@@ -240,7 +240,7 @@ html {
   padding: 0;
   position: fixed !important;
   top: calc(0px);
-  width: 20%;
+  width: 17%;
   will-change: transform;
   z-index: 9999 !important;
 }
@@ -365,6 +365,11 @@ button:hover {
 }
 
 /* Left & Right Post */
+#r-img-post{
+  margin-bottom: 60px;
+  padding-bottom: 60px;
+  border-bottom: 2px solid rgba(250, 250, 250, 0.1);
+}
 
 .right-image-post {
   margin-top: 60px;

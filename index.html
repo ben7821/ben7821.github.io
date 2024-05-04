@@ -1,384 +1,614 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="Portfolio 2éme année BTS SIO & E4" />
+    <meta name="author" content="Benjamin TOULAT" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900"
+      rel="stylesheet"
+    />
 
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <meta name="description" content="Portfolio 2éme année BTS SIO & E4" />
-  <meta name="author" content="Benjamin TOULAT" />
-  <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet" />
+    <title>Portfolio BTS SIO | Benjamin TOULAT</title>
+    <link
+      rel="shortcut icon"
+      href="assets/images/page-bg2.jpg"
+      type="image/x-icon"
+    />
 
-  <title>Portfolio BTS SIO | Benjamin TOULAT</title>
-  <link rel="shortcut icon" href="assets/images/favicon.jpg" type="image/x-icon" />
+    <!-- Reset CSS -->
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 
-  <!-- Reset CSS -->
-  <link rel="stylesheet" href="assets/css/reset.css" />
-  <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Additional CSS Files -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
-  <!-- Additional CSS Files -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="assets/css/brands.css" />
-  <link rel="stylesheet" href="assets/css/main.css" />
-  <link rel="stylesheet" href="assets/css/owl.css" />
-  <link rel="stylesheet" href="assets/css/lightbox.css" />
-</head>
+    <link rel="stylesheet" href="assets/css/brands.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/owl.css" />
+    <link rel="stylesheet" href="assets/css/lightbox.css" />
+  </head>
 
-<body>
-  <button onclick="topFunction()" id="topBtn">
-    <span class="button fa fa-chevron-up"></span>
-  </button>
+  <body>
+    <button onclick="topFunction()" id="topBtn">
+      <span class="button fa fa-chevron-up"></span>
+    </button>
 
-  <div id="page-wraper">
-    <!-- Sidebar Menu -->
-    <div class="responsive-nav">
-      <i class="fa fa-bars" id="menu-toggle"></i>
-      <div id="menu" class="menu">
-        <i class="fa fa-times" id="menu-close"></i>
+    <div id="page-wraper">
+      <!-- Sidebar Menu -->
+      <div class="responsive-nav">
+        <i class="fa fa-bars" id="menu-toggle"></i>
+        <div id="menu" class="menu">
+          <i class="fa fa-times" id="menu-close"></i>
+          <div class="container">
+            <div class="image">
+              <a href="#"
+                ><img src="assets/images/author-image.jpg" alt=""
+              /></a>
+            </div>
+            <div class="author-content">
+              <h4>Benjamin TOULAT</h4>
+              <span>Développeur / Comptable</span>
+            </div>
+            <nav class="main-nav" role="navigation">
+              <ul class="main-menu">
+                <li><a href="#section1">A Propos</a></li>
+                <li><a href="#section2">Compétences</a></li>
+                <li><a href="#section3">Projets</a></li>
+                <!-- <li><a href="#section5">Veilles</a></li>
+              <li><a href="#section6">Epreuve E4</a></li> -->
+                <li><a href="#section4">Contact</a></li>
+              </ul>
+            </nav>
+            <div class="social-network">
+              <ul class="soial-icons">
+                <li>
+                  <a href="https://github.com/ben7821"
+                    ><i class="fa fa-github"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="https://discord.com/users/ben7821"
+                    ><i class="fa fa-discord"></i
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/benjamin-toulat-b620b1250/"
+                    ><i class="fa fa-linkedin"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+            <div class="copyright-text">
+              <p>© 2024 by Benjamin TOULAT</p>
+              <button
+                type="button"
+                class="white-button"
+                data-toggle="modal"
+                data-target="#exampleModal"
+              >
+                Mention Legal
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section class="section about-me" data-section="section1">
         <div class="container">
-          <div class="image">
-            <a href="#"><img src="assets/images/author-image.jpg" alt="" /></a>
+          <div class="section-heading">
+            <h2>Qui je suis ???</h2>
+            <div class="line-dec"></div>
+            <span
+              >Je suis un passionné d'informatique en deuxième année de BTS SIO
+              (Services Informatiques aux Organisations). 💻 Le jour, je suis un
+              enthousiaste de la technologie qui explore les merveilles de la
+              programmation, et la nuit, je me transforme en Gameur. 🌌 Lorsque
+              je ne suis pas dans le monde numérique, vous me trouverez en train
+              de naviguer dans le paysage stratégique des MMO .
+            </span>
           </div>
-          <div class="author-content">
-            <h4>Benjamin TOULAT</h4>
-            <span>Développeur / Comptable</span>
-          </div>
-          <nav class="main-nav" role="navigation">
-            <ul class="main-menu">
-              <li><a href="#section1">A Propos</a></li>
-              <li><a href="#section2">Compétences</a></li>
-              <li><a href="#section3">Projets</a></li>
-              <li><a href="#section5">Veilles</a></li>
-              <li><a href="#section6">Epreuve E4</a></li>
-              <li><a href="#section4">Contact</a></li>
-            </ul>
-          </nav>
-          <div class="social-network">
-            <ul class="soial-icons">
-              <li>
-                <a href="https://github.com/ben7821"><i class="fa fa-github"></i></a>
-              </li>
-              <li>
-                <a href="https://discord.com/users/ben7821"><i class="fa fa-discord"></i></a>
-              </li>
-              <li>
-                <a href="https://www.linkedin.com/in/benjamin-toulat-b620b1250/"><i class="fa fa-linkedin"></i></a>
-              </li>
-            </ul>
-          </div>
-          <div class="copyright-text">
-            <p>© 2024 by Benjamin TOULAT</p>
-            <button type="button" class="white-button" data-toggle="modal" data-target="#exampleModal">Mention
-              Legal</button>
+          <div class="right-image-post" id="r-img-post">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="left-text">
+                  <h4>2024 - 2025 Licence Integrative informatique</h4>
+                  <p>
+                    J'ai été admis au CNAM Enjmin pour une licence intégrative en informatique, option Multimédia en alternance. Mon objectif est de continuer après la licence pour intégrer l'école d'ingénieur au CNAM.
+                  </p>
+                  <div class="white-button">
+                    <a href="https://www.cnam-nouvelle-aquitaine.fr/page-site,licence-integrative,141"
+                      >Site du CNAM enjmin</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="right-image">
+                  <img src="assets/images/cnam-enjmin.jpg" alt="" />
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
 
-    <section class="section about-me" data-section="section1">
-      <div class="container">
-        <div class="section-heading">
-          <h2>Qui je suis ???</h2>
-          <div class="line-dec"></div>
-          <span>Je suis un passionné d'informatique en deuxième année de BTS SIO
-            (Services Informatiques aux Organisations). 💻 Le jour, je suis un
-            enthousiaste de la technologie qui explore les merveilles de la
-            programmation, et la nuit, je me transforme en Gameur. 🌌 Lorsque
-            je ne suis pas dans le monde numérique, vous me trouverez en train
-            de naviguer dans le paysage stratégique des MMO .
-          </span>
-        </div>
-        <div class="left-image-post">
-          <div class="row">
-            <div class="col-md-6">
-              <div class="left-image">
-                <img src="assets/images/lycee-chauvet.png" alt="" />
+          <div class="left-image-post">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="left-image">
+                  <img src="assets/images/lycee-chauvet.png" alt="" />
+                </div>
               </div>
-            </div>
-            <div class="col-md-6">
-              <div class="right-text">
-                <h4>2022-2024 BTS SIO !</h4>
-                <p>
-                  Je suis actuellement étudiant au
-                  <strong>Lycée Guy Chauvet</strong> à Loudun 🗺️ en Deuxième
-                  année de <strong> BTS SIO</strong> (Services Informatiques
-                  aux Organisations) dans l'option SLAM (Solutions Logicielles
-                  et Application Métier) qui en gros est une option
-                  spécialisée pour le développement.
-                </p>
-                <div class="white-button">
-                  <a href="https://etab.ac-poitiers.fr/lycee-guy-chauvet/">Site du Lycée</a>
+              <div class="col-md-6">
+                <div class="right-text">
+                  <h4>2022-2024 BTS SIO</h4>
+                  <p>
+                    Je suis actuellement étudiant au
+                    <strong>Lycée Guy Chauvet</strong> à Loudun 🗺️ en Deuxième
+                    année de <strong> BTS SIO</strong> (Services Informatiques
+                    aux Organisations) dans l'option SLAM (Solutions Logicielles
+                    et Application Métier) qui en gros est une option
+                    spécialisée pour le développement.
+                  </p>
+                  <div class="white-button">
+                    <a href="https://etab.ac-poitiers.fr/lycee-guy-chauvet/"
+                      >Site du Lycée</a
+                    >
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="right-image-post">
-          <div class="row">
-            <div class="col-md-6">
-              <div class="left-text">
-                <h4>2020 - 2022 BTS Comptabilité Gestion</h4>
-                <p>
-                  Avant de poursuivre mes études en
-                  <strong>BTS SIO au Lycée Guy Chauvet</strong> à Loudun, j'ai
-                  complété un
-                  <strong>BTS Comptabilité et Gestion (CG)</strong>, au Lycée
-                  Maurice Genevoix à Bressuire où j'ai acquis des compétences
-                  fondamentales en comptabilité, gestion financière, et
-                  analyse financière.
-                </p>
-                <div class="white-button">
-                  <a href="http://www.genevoix-signoret-vinci.fr/">Site du Lycée</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="right-image">
-                <img src="assets/images/lycee-genevoix.jpg" alt="" />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
 
-    <section class="section my-services" data-section="section2">
-      <div class="container">
-        <div class="section-heading">
-          <h2>Liste des compétences que je possède !!</h2>
-          <div class="line-dec"></div>
-          <span>Voici la liste des compétences que j'ai pu développer et acquérir
-            au cours de mon cursus scolaire en BTS SIO et BTS Comptabilité et
-            Gestion, ainsi que lors des différents stages que j'ai effectués
-            :</span>
+          <div class="right-image-post">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="left-text">
+                  <h4>2020 - 2022 BTS Comptabilité Gestion</h4>
+                  <p>
+                    Avant de poursuivre mes études en
+                    <strong>BTS SIO au Lycée Guy Chauvet</strong> à Loudun, j'ai
+                    complété un
+                    <strong>BTS Comptabilité et Gestion (CG)</strong>, au Lycée
+                    Maurice Genevoix à Bressuire où j'ai acquis des compétences
+                    fondamentales en comptabilité, gestion financière, et
+                    analyse financière.
+                  </p>
+                  <div class="white-button">
+                    <a href="http://www.genevoix-signoret-vinci.fr/"
+                      >Site du Lycée</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="right-image">
+                  <img src="assets/images/lycee-genevoix.jpg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="row">
-          <div class="col-md-6 item-card">
-            <div class="service-item">
-              <div class="first-service-icon service-icon"></div>
-              <h4>Front &amp; Backend</h4>
-              <div class="row row-skill" style="padding-bottom: 10px">
-                <div class="col-md-2">
-                  <div class="card skill" style="background-color: transparent; border: none">
-                    <img class="card-img-top" src="assets/images/skill/html.png" />
+      </section>
+
+      <section class="section my-services" data-section="section2">
+        <div class="container">
+          <div class="section-heading">
+            <h2>Liste des compétences que je possède !!</h2>
+            <div class="line-dec"></div>
+            <span
+              >Voici la liste des compétences que j'ai pu développer et acquérir
+              au cours de mon cursus scolaire en BTS SIO et BTS Comptabilité et
+              Gestion, ainsi que lors des différents stages que j'ai effectués
+              :</span
+            >
+          </div>
+          <div class="row">
+            <div class="col-md-6 item-card">
+              <div class="service-item">
+                <div class="first-service-icon service-icon"></div>
+                <h4>Front &amp; Backend</h4>
+                <div class="row row-skill" style="padding-bottom: 10px">
+                  <div class="col-md-2">
+                    <div
+                      class="card skill"
+                      style="background-color: transparent; border: none"
+                    >
+                      <img
+                        class="card-img-top"
+                        src="assets/images/skill/html.png"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div
+                      class="card skill"
+                      style="background-color: transparent; border: none"
+                    >
+                      <img
+                        class="card-img-top"
+                        src="assets/images/skill/css.png"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div
+                      class="card skill"
+                      style="background-color: transparent; border: none"
+                    >
+                      <img
+                        class="card-img-top"
+                        src="assets/images/skill/javascript.png"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div
+                      class="card skill"
+                      style="background-color: transparent; border: none"
+                    >
+                      <img
+                        class="card-img-top"
+                        src="assets/images/skill/symfony.png"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div
+                      class="card skill"
+                      style="background-color: transparent; border: none"
+                    >
+                      <img
+                        class="card-img-top"
+                        src="assets/images/skill/php.png"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div
+                      class="card skill"
+                      style="background-color: transparent; border: none"
+                    >
+                      <img
+                        class="card-img-top"
+                        src="assets/images/skill/sql.png"
+                      />
+                    </div>
                   </div>
                 </div>
-                <div class="col-md-2">
-                  <div class="card skill" style="background-color: transparent; border: none">
-                    <img class="card-img-top" src="assets/images/skill/css.png" />
-                  </div>
-                </div>
-                <div class="col-md-2">
-                  <div class="card skill" style="background-color: transparent; border: none">
-                    <img class="card-img-top" src="assets/images/skill/javascript.png" />
-                  </div>
-                </div>
-                <div class="col-md-2">
-                  <div class="card skill" style="background-color: transparent; border: none">
-                    <img class="card-img-top" src="assets/images/skill/symfony.png" />
-                  </div>
-                </div>
-                <div class="col-md-2">
-                  <div class="card skill" style="background-color: transparent; border: none">
-                    <img class="card-img-top" src="assets/images/skill/php.png" />
-                  </div>
-                </div>
-                <div class="col-md-2">
-                  <div class="card skill" style="background-color: transparent; border: none">
-                    <img class="card-img-top" src="assets/images/skill/sql.png" />
-                  </div>
-                </div>
+                <p>
+                  J'ai travaillé sur le développement Frontend en utilisant
+                  Bootstrap et sur le développement Backend avec Symfony (des
+                  teste sur Laravel). Pour la gestion des bases de données, j'ai
+                  utilisé Adminer, couplé à PostgreSQL ou MariaDB.
+                </p>
               </div>
-              <p>
-                J'ai travaillé sur le développement Frontend en utilisant
-                Bootstrap et sur le développement Backend avec Symfony (des
-                teste sur Laravel). Pour la gestion des bases de données, j'ai
-                utilisé Adminer, couplé à PostgreSQL ou MariaDB.
-              </p>
+            </div>
+            <div class="col-md-6 item-card">
+              <div class="service-item">
+                <div class="second-service-icon service-icon"></div>
+                <h4>Type objet</h4>
+                <div class="row row-skill" style="padding-bottom: 10px">
+                  <div class="col-md-2">
+                    <div
+                      class="card skill"
+                      style="background-color: transparent; border: none"
+                    >
+                      <img
+                        class="card-img-top"
+                        src="assets/images/skill/c++.png"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div
+                      class="card skill"
+                      style="background-color: transparent; border: none"
+                    >
+                      <img
+                        class="card-img-top"
+                        src="assets/images/skill/csharp.png"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div
+                      class="card skill"
+                      style="background-color: transparent; border: none"
+                    >
+                      <img
+                        class="card-img-top"
+                        src="assets/images/skill/java.png"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <p>
+                  J'ai utilisé C++, C# (avec une approche de Programmation
+                  Orientée Objet) et Java pour développer une application
+                  mobile.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6 item-card">
+              <div class="service-item">
+                <div class="third-service-icon service-icon"></div>
+                <h4>Réseaux</h4>
+                <div class="row row-skill" style="padding-bottom: 10px">
+                  <div class="col-md-2">
+                    <div
+                      class="card skill"
+                      style="background-color: transparent; border: none"
+                    >
+                      <img
+                        class="card-img-top"
+                        src="assets/images/skill/server.png"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <p>Notions de base pour la mise en place d'un serveur web.</p>
+              </div>
+            </div>
+            <div class="col-md-6 item-card">
+              <div class="service-item">
+                <div class="fourth-service-icon service-icon"></div>
+                <h4>Autre</h4>
+                <div class="row row-skill" style="padding-bottom: 10px">
+                  <div class="col-md-2">
+                    <div
+                      class="card skill"
+                      style="background-color: transparent; border: none"
+                    >
+                      <img
+                        class="card-img-top"
+                        src="assets/images/skill/python.png"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div
+                      class="card skill"
+                      style="background-color: transparent; border: none"
+                    >
+                      <img
+                        class="card-img-top"
+                        src="assets/images/skill/accounts.png"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <p>
+                  Je possède des compétences en comptabilité de gestion, ainsi
+                  qu'en programmation Python, spécifiquement pour le scripting
+                  et le web scraping
+                </p>
+              </div>
             </div>
           </div>
-          <div class="col-md-6 item-card">
-            <div class="service-item">
-              <div class="second-service-icon service-icon"></div>
-              <h4>Type objet</h4>
-              <div class="row row-skill" style="padding-bottom: 10px">
-                <div class="col-md-2">
-                  <div class="card skill" style="background-color: transparent; border: none">
-                    <img class="card-img-top" src="assets/images/skill/c++.png" />
-                  </div>
-                </div>
-                <div class="col-md-2">
-                  <div class="card skill" style="background-color: transparent; border: none">
-                    <img class="card-img-top" src="assets/images/skill/csharp.png" />
-                  </div>
-                </div>
-                <div class="col-md-2">
-                  <div class="card skill" style="background-color: transparent; border: none">
-                    <img class="card-img-top" src="assets/images/skill/java.png" />
-                  </div>
-                </div>
-              </div>
-              <p>
-                J'ai utilisé C++, C# (avec une approche de Programmation
-                Orientée Objet) et Java pour développer une application
-                mobile.
-              </p>
-            </div>
-          </div>
-          <div class="col-md-6 item-card">
-            <div class="service-item">
-              <div class="third-service-icon service-icon"></div>
-              <h4>Réseaux</h4>
-              <div class="row row-skill" style="padding-bottom: 10px">
-                <div class="col-md-2">
-                  <div class="card skill" style="background-color: transparent; border: none">
-                    <img class="card-img-top" src="assets/images/skill/server.png" />
-                  </div>
-                </div>
-              </div>
-              <p>Notions de base pour la mise en place d'un serveur web.</p>
-            </div>
-          </div>
-          <div class="col-md-6 item-card">
+          <div class="col-md-16 item-card">
             <div class="service-item">
               <div class="fourth-service-icon service-icon"></div>
-              <h4>Autre</h4>
+              <h4>Les Outils</h4>
               <div class="row row-skill" style="padding-bottom: 10px">
                 <div class="col-md-2">
-                  <div class="card skill" style="background-color: transparent; border: none">
-                    <img class="card-img-top" src="assets/images/skill/python.png" />
+                  <div
+                    class="card skill"
+                    style="background-color: transparent; border: none"
+                  >
+                    <img
+                      class="card-img-top"
+                      src="assets/images/skill/visual_studio.png"
+                    />
                   </div>
                 </div>
                 <div class="col-md-2">
-                  <div class="card skill" style="background-color: transparent; border: none">
-                    <img class="card-img-top" src="assets/images/skill/accounts.png" />
+                  <div
+                    class="card skill"
+                    style="background-color: transparent; border: none"
+                  >
+                    <img
+                      class="card-img-top"
+                      src="assets/images/skill/virtualbox.png"
+                    />
                   </div>
                 </div>
+                <div class="col-md-2">
+                  <div
+                    class="card skill"
+                    style="background-color: transparent; border: none"
+                  >
+                    <img
+                      class="card-img-top"
+                      src="assets/images/skill/android_studio.png"
+                    />
+                  </div>
+                </div>
+                <div class="col-md-2">
+                  <div
+                    class="card skill"
+                    style="background-color: transparent; border: none"
+                  >
+                    <img
+                      class="card-img-top"
+                      src="assets/images/skill/Debian.png"
+                    />
+                  </div>
+                </div>
+                <p>
+                  Je combine l'utilisation de Visual Studio Code pour le
+                  développement web, VirtualBox pour la virtualisation, Android
+                  Studio pour le développement d'applications mobiles, et Debian
+                  comme système d'exploitation principal, créant ainsi un
+                  environnement de développement robuste et polyvalent.
+                </p>
               </div>
-              <p>
-                Je possède des compétences en comptabilité de gestion, ainsi
-                qu'en programmation Python, spécifiquement pour le scripting
-                et le web scraping
-              </p>
+              <p></p>
+            </div>
+          </div>
+          <div class="section-heading">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="white-button">
+                  <a href="assets/pdf/CV_Benjamin_TOULAT.pdf" download
+                    >Télecharger CV</a
+                  >
+                </div>
+              </div>
+              <div class="line-dec line-resume" style="display: none"></div>
+              <div class="col-md-6">
+                <div class="white-button">
+                  <a href="assets/pdf/LM-Benjamin_TOULAT.pdf" download
+                    >Télecharger LM</a
+                  >
+                </div>
+              </div>
             </div>
           </div>
         </div>
-        <div class="col-md-16 item-card">
-          <div class="service-item">
-            <div class="fourth-service-icon service-icon"></div>
-            <h4>Les Outils</h4>
-            <div class="row row-skill" style="padding-bottom: 10px">
-              <div class="col-md-2">
-                <div class="card skill" style="background-color: transparent; border: none">
-                  <img class="card-img-top" src="assets/images/skill/vs-code.png" />
-                </div>
-              </div>
-              <div class="col-md-2">
-                <div class="card skill" style="background-color: transparent; border: none">
-                  <img class="card-img-top" src="assets/images/skill/adminer.png" />
-                </div>
-              </div>
-              <div class="col-md-2">
-                <div class="card skill" style="background-color: transparent; border: none">
-                  <img class="card-img-top" src="assets/images/skill/andoid-studio.png" />
-                </div>
-              </div>
-            </div>
-            <p>
-            </p>
+      </section>
+
+      <section class="section my-work" data-section="section3">
+        <div class="container">
+          <div class="section-heading">
+            <h2>Mes projets !!</h2>
+            <div class="line-dec"></div>
+            <span
+              >La liste de tous les projet terminer / encore en informatique
+              .</span
+            >
           </div>
-        </div>
-        <div class="section-heading">
           <div class="row">
-            <div class="col-md-6">
-              <div class="white-button">
-                <a href="assets/pdf/CV-Benjamin_TOULAT.pdf" download>Télecharger CV</a>
-              </div>
-            </div>
-            <div class="line-dec line-resume" style="display: none"></div>
-            <div class="col-md-6">
-              <div class="white-button">
-                <a href="assets/pdf/LM-Benjamin_TOULAT.pdf" download>Télecharger LM</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-      </div>
-    </section>
+            <div class="isotope-wrapper">
+              <form class="isotope-toolbar">
+                <label
+                  ><input
+                    type="radio"
+                    data-type="*"
+                    checked=""
+                    name="isotope-filter"
+                  />
+                  <span>all</span></label
+                >
+                <label
+                  ><input type="radio" data-type="java" name="isotope-filter" />
+                  <span>java</span></label
+                >
+                <label
+                  ><input
+                    type="radio"
+                    data-type="site web"
+                    name="isotope-filter"
+                  />
+                  <span>site web</span></label
+                >
+                <label
+                  ><input
+                    type="radio"
+                    data-type="wordpress"
+                    name="isotope-filter"
+                  />
+                  <span>wordpress</span></label
+                >
+                <label
+                  ><input
+                    type="radio"
+                    data-type="jeux video"
+                    name="isotope-filter"
+                  />
+                  <span>jeux video</span></label
+                >
+              </form>
+              <div class="isotope-box">
+                <div class="isotope-item" data-type="site web">
+                  <figure class="snip1321">
+                    <img src="assets/images/WebRadio.png" alt="sq-sample26" />
+                    <figcaption>
+                      <a
+                        href="assets/images/WebRadio.png"
+                        data-lightbox="image-1"
+                        data-title="Caption"
+                        ><i class="fa fa-search"></i
+                      ></a>
+                      <h4>Webradio lycée Guy Chauvet</h4>
+                      <span
+                        >Nous avont réaliser un site internet "webradio"
+                        destinée à notre lycée, en utilisant Symfony, une équipe
+                        de cinq personnes.</span
+                      >
 
-    <section class="section my-work" data-section="section3">
-      <div class="container">
-        <div class="section-heading">
-          <h2>Mes projets !!</h2>
-          <div class="line-dec"></div>
-          <span>La liste de tous les projet terminer / encore en informatique
-            .</span>
-        </div>
-        <div class="row">
-          <div class="isotope-wrapper">
-            <form class="isotope-toolbar">
-              <label><input type="radio" data-type="*" checked="" name="isotope-filter" />
-                <span>all</span></label>
-              <label><input type="radio" data-type="java" name="isotope-filter" />
-                <span>java</span></label>
-              <label><input type="radio" data-type="site web" name="isotope-filter" />
-                <span>site web</span></label>
-              <label><input type="radio" data-type="wordpress" name="isotope-filter" />
-                <span>wordpress</span></label>
-              <label><input type="radio" data-type="jeux video" name="isotope-filter" />
-                <span>jeux video</span></label>
-            </form>
-            <div class="isotope-box">
-              <div class="isotope-item" data-type="site web">
-                <figure class="snip1321">
-                  <img src="assets/images/WebRadio.png" alt="sq-sample26" />
-                  <figcaption>
-                    <a href="assets/images/WebRadio.png" data-lightbox="image-1" data-title="Caption"><i
-                        class="fa fa-search"></i></a>
-                    <h4>Webradio lycée Guy Chauvet</h4>
-                    <span>Nous avont réaliser un site internet "webradio" destinée
-                      à notre lycée, en utilisant Symfony, une équipe de cinq personnes.</span>
+                      <a href="https://github.com/ben7821/WebRadio"
+                        >Git Webradio</a
+                      ><br />
+                      <a href="webradio.lycee-guychauvet.fr">Site Webradio</a>
+                    </figcaption>
+                  </figure>
+                </div>
 
-                    <a href="https://github.com/ben7821/WebRadio">Git Webradio</a><br>
-                    <a href="webradio.lycee-guychauvet.fr">Site Webradio</a>
-                  </figcaption>
-                </figure>
-              </div>
+                <div class="isotope-item" data-type="site web">
+                  <figure class="snip1321">
+                    <img
+                      src="assets/images/portfolio-05.jpg"
+                      alt="sq-sample26"
+                    />
+                    <figcaption>
+                      <a
+                        href="assets/images/portfolio-05.jpg"
+                        data-lightbox="image-1"
+                        data-title="Caption"
+                        ><i class="fa fa-search"></i
+                      ></a>
+                      <h4>Jeux/site : Ou est richardeau ?</h4>
+                      <span
+                        >"Création d'un petit site sur le thème 'Où est Charlie
+                        ?', mais mettant en scène notre professeur de
+                        développement. Réaliser avec Mathieu Raveleau.</span
+                      >
+                      <a href="https://github.com/ben7821/richardeau"
+                        >Git Ou-est-richardeau?</a
+                      ><br />
+                      <a href="https://ou-est-richardeau.poupli.net/"
+                        >Site Ou-est-richardeau?</a
+                      >
+                    </figcaption>
+                  </figure>
+                </div>
 
-              <div class="isotope-item" data-type="site web">
-                <figure class="snip1321">
-                  <img src="assets/images/portfolio-05.jpg" alt="sq-sample26" />
-                  <figcaption>
-                    <a href="assets/images/portfolio-05.jpg" data-lightbox="image-1" data-title="Caption"><i
-                        class="fa fa-search"></i></a>
-                    <h4>Jeux/site : Ou est richardeau ?</h4>
-                    <span>"Création d'un petit site sur le thème 'Où est Charlie
-                      ?', mais mettant en scène notre
-                      professeur de développement. Réaliser avec Mathieu Raveleau.</span>
-                    <a href="https://github.com/ben7821/richardeau">Git Ou-est-richardeau?</a><br>
-                    <a href="https://ou-est-richardeau.poupli.net/">Site Ou-est-richardeau?</a>
-                  </figcaption>
-                </figure>
-              </div>
+                <div class="isotope-item" data-type="java">
+                  <figure class="snip1321">
+                    <img src="assets/images/SenseySync.png" alt="sq-sample26" />
+                    <figcaption>
+                      <a
+                        href="assets/images/SenseySync.png"
+                        data-lightbox="image-1"
+                        data-title="Caption"
+                        ><i class="fa fa-search"></i
+                      ></a>
+                      <h4>App Gestion absence Judoka</h4>
+                      <span
+                        >Je développe une application en Java destinée à la
+                        gestion des absence de Judoka.</span
+                      >
+                      <a href="https://github.com/ben7821/SenseySync"
+                        >Git SenseySync</a
+                      >
+                    </figcaption>
+                  </figure>
+                </div>
 
-              <div class="isotope-item" data-type="java">
-                <figure class="snip1321">
-                  <img src="assets/images/SenseySync.png" alt="sq-sample26" />
-                  <figcaption>
-                    <a href="assets/images/SenseySync.png" data-lightbox="image-1" data-title="Caption"><i
-                        class="fa fa-search"></i></a>
-                    <h4>App Gestion absence Judoka</h4>
-                    <span>Je développe une application en Java destinée à la
-                      gestion des absence de Judoka.</span>
-                    <a href="https://github.com/ben7821/SenseySync">Git SenseySync</a>
-                  </figcaption>
-                </figure>
-              </div>
-
-              <!-- <div class="isotope-item" data-type="wordpress">
+                <!-- <div class="isotope-item" data-type="wordpress">
                   <figure class="snip1321">
                     <img
                       src="assets/images/portfolio-03.jpg"
@@ -404,27 +634,35 @@
                   </figure>
                 </div> -->
 
-              <div class="isotope-item" data-type="jeux video">
-                <figure class="snip1321">
-                  <img src="assets/images/Otome_Game.png" alt="sq-sample26" />
-                  <figcaption>
-                    <a href="assets/images/Otome_Game.png" data-lightbox="image-1" data-title="Caption"><i
-                        class="fa fa-search"></i></a>
-                    <h4>Otome Game</h4>
-                    <span>Je participe aux développement (utilisant Ren'Py) d'un jeu
-                      otome, tandis qu'une amie s'occupe de la DA, des dessins, 3D.</span>
-                    <a href="/assets/pdf/CDC_Otome_Game.pdf">Cahier des charges</a>
-                  </figcaption>
-                </figure>
+                <div class="isotope-item" data-type="jeux video">
+                  <figure class="snip1321">
+                    <img src="assets/images/Otome_Game.png" alt="sq-sample26" />
+                    <figcaption>
+                      <a
+                        href="assets/images/Otome_Game.png"
+                        data-lightbox="image-1"
+                        data-title="Caption"
+                        ><i class="fa fa-search"></i
+                      ></a>
+                      <h4>Otome Game</h4>
+                      <span
+                        >Je participe aux développement (utilisant Ren'Py) d'un
+                        jeu otome, tandis qu'une amie s'occupe de la DA, des
+                        dessins, 3D.</span
+                      >
+                      <a href="/assets/pdf/CDC_Otome_Game.pdf"
+                        >Cahier des charges</a
+                      >
+                    </figcaption>
+                  </figure>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-
-    <section class="section" data-section="section5">
+      <!-- <section class="section" data-section="section5">
       <div class="container">
         <div class="section-heading">
           <h2>La veille technologique</h2>
@@ -521,9 +759,9 @@
           </tbody>
         </table>
       </div>
-    </section>
+    </section> -->
 
-    <section class="section" data-section="section6">
+      <!-- <section class="section" data-section="section6">
       <div class="container">
         <div class="section-heading">
           <h2>Tableau Synthèse E4 :</h2>
@@ -679,174 +917,223 @@
           </tbody>
         </table>
       </div>
-    </section>
+    </section> -->
 
-    <section class="section contact-me" data-section="section4">
-      <div class="container">
-        <div class="section-heading">
-          <h2>Formulaire de contact</h2>
-          <div class="line-dec"></div>
-          <span>N'hésitez pas à me contacter via ce formulaire pour toute
-            question ou information complémentaire !
-          </span>
-        </div>
-        <div class="row">
-          <div class="right-content">
-            <div class="container">
-              <form id="contact" action="https://formspree.io/f/mjvnpwnn" method="POST">
-                <div class="row">
-                  <div class="col-md-6">
-                    <fieldset>
-                      <input name="name" type="text" class="form-control" id="name" placeholder="Nom" required="" />
-                    </fieldset>
+      <section class="section contact-me" data-section="section4">
+        <div class="container">
+          <div class="section-heading">
+            <h2>Formulaire de contact</h2>
+            <div class="line-dec"></div>
+            <span
+              >N'hésitez pas à me contacter via ce formulaire pour toute
+              question ou information complémentaire !
+            </span>
+          </div>
+          <div class="row">
+            <div class="right-content">
+              <div class="container">
+                <form
+                  id="contact"
+                  action="https://formspree.io/f/mjvnpwnn"
+                  method="POST"
+                >
+                  <div class="row">
+                    <div class="col-md-6">
+                      <fieldset>
+                        <input
+                          name="name"
+                          type="text"
+                          class="form-control"
+                          id="name"
+                          placeholder="Nom"
+                          required=""
+                        />
+                      </fieldset>
+                    </div>
+                    <div class="col-md-6">
+                      <fieldset>
+                        <input
+                          name="_replyto"
+                          type="email"
+                          class="form-control"
+                          id="email"
+                          placeholder="E-mail"
+                          required=""
+                        />
+                      </fieldset>
+                    </div>
+                    <div class="col-md-12">
+                      <fieldset>
+                        <input
+                          name="subject"
+                          type="text"
+                          class="form-control"
+                          id="subject"
+                          placeholder="Sujet"
+                          required=""
+                        />
+                      </fieldset>
+                    </div>
+                    <div class="col-md-12">
+                      <fieldset>
+                        <textarea
+                          name="message"
+                          rows="6"
+                          class="form-control"
+                          id="message"
+                          placeholder="Votre message..."
+                          required=""
+                        ></textarea>
+                      </fieldset>
+                    </div>
+                    <div class="col-md-12">
+                      <fieldset>
+                        <button type="submit" id="form-submit" class="button">
+                          Envoyer votre message
+                        </button>
+                      </fieldset>
+                    </div>
                   </div>
-                  <div class="col-md-6">
-                    <fieldset>
-                      <input name="_replyto" type="email" class="form-control" id="email" placeholder="E-mail"
-                        required="" />
-                    </fieldset>
-                  </div>
-                  <div class="col-md-12">
-                    <fieldset>
-                      <input name="subject" type="text" class="form-control" id="subject" placeholder="Sujet"
-                        required="" />
-                    </fieldset>
-                  </div>
-                  <div class="col-md-12">
-                    <fieldset>
-                      <textarea name="message" rows="6" class="form-control" id="message" placeholder="Votre message..."
-                        required=""></textarea>
-                    </fieldset>
-                  </div>
-                  <div class="col-md-12">
-                    <fieldset>
-                      <button type="submit" id="form-submit" class="button">
-                        Envoyer votre message
-                      </button>
-                    </fieldset>
-                  </div>
-                </div>
-              </form>
-
+                </form>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-  </div>
+      </section>
+    </div>
 
-  <!-- Scripts -->
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Scripts -->
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-  <script src="assets/js/isotope.min.js"></script>
-  <script src="assets/js/owl-carousel.js"></script>
-  <script src="assets/js/lightbox.js"></script>
-  <script src="assets/js/custom.js"></script>
-  <script>
-    //according to loftblog tut
-    $(".main-menu li:first").addClass("active");
+    <script src="assets/js/isotope.min.js"></script>
+    <script src="assets/js/owl-carousel.js"></script>
+    <script src="assets/js/lightbox.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <script>
+      //according to loftblog tut
+      $(".main-menu li:first").addClass("active");
 
-    var showSection = function showSection(section, isAnimate) {
-      var direction = section.replace(/#/, ""),
-        reqSection = $(".section").filter(
-          '[data-section="' + direction + '"]'
-        ),
-        reqSectionPos = reqSection.offset().top - 0;
+      var showSection = function showSection(section, isAnimate) {
+        var direction = section.replace(/#/, ""),
+          reqSection = $(".section").filter(
+            '[data-section="' + direction + '"]'
+          ),
+          reqSectionPos = reqSection.offset().top - 0;
 
-      if (isAnimate) {
-        $("body, html").animate(
-          {
-            scrollTop: reqSectionPos,
-          },
-          800
-        );
-      } else {
-        $("body, html").scrollTop(reqSectionPos);
-      }
-    };
-
-    var checkSection = function checkSection() {
-      $(".section").each(function () {
-        var $this = $(this),
-          topEdge = $this.offset().top - 80,
-          bottomEdge = topEdge + $this.height(),
-          wScroll = $(window).scrollTop();
-        if (topEdge < wScroll && bottomEdge > wScroll) {
-          var currentId = $this.data("section"),
-            reqLink = $("a").filter("[href*=\\#" + currentId + "]");
-          reqLink
-            .closest("li")
-            .addClass("active")
-            .siblings()
-            .removeClass("active");
+        if (isAnimate) {
+          $("body, html").animate(
+            {
+              scrollTop: reqSectionPos,
+            },
+            800
+          );
+        } else {
+          $("body, html").scrollTop(reqSectionPos);
         }
+      };
+
+      var checkSection = function checkSection() {
+        $(".section").each(function () {
+          var $this = $(this),
+            topEdge = $this.offset().top - 80,
+            bottomEdge = topEdge + $this.height(),
+            wScroll = $(window).scrollTop();
+          if (topEdge < wScroll && bottomEdge > wScroll) {
+            var currentId = $this.data("section"),
+              reqLink = $("a").filter("[href*=\\#" + currentId + "]");
+            reqLink
+              .closest("li")
+              .addClass("active")
+              .siblings()
+              .removeClass("active");
+          }
+        });
+      };
+
+      $(".main-menu").on("click", "a", function (e) {
+        e.preventDefault();
+        showSection($(this).attr("href"), true);
       });
-    };
 
-    $(".main-menu").on("click", "a", function (e) {
-      e.preventDefault();
-      showSection($(this).attr("href"), true);
-    });
-
-    $(window).scroll(function () {
-      checkSection();
-    });
-  </script>
-</body>
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-  aria-hidden="true" style="z-index: 999999999999;">
-  <div class="modal-dialog modal-lg" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h2 class="modal-title" id="exampleModalLabel">Mention Legal</h2>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <strong>Droits d'auteur :</strong> "Tous les contenus, y compris mais sans s'y limiter, les textes, les images,
-        les vidéos et
-        les graphiques présents sur ce site sont la propriété intellectuelle de leurs propriétaires respectifs et
-        sont protégés par les lois internationales sur le droit d'auteur."<br><br>
-        <hr>
-        <strong>Utilisation des contenus :</strong> "Aucun contenu de ce site ne peut être reproduit, distribué, ou
-        transmis sous
-        quelque forme que ce soit sans l'autorisation écrite préalable de leurs propriétaires respectifs."<br><br>
-        <hr>
-        <strong>Liens externes :</strong> "Ce site peut contenir des liens vers des sites web externes dont nous
-        n'assumons aucune
-        responsabilité quant au contenu ou à la politique de confidentialité. L'inclusion de tels liens ne signifie
-        pas une approbation de leur contenu."<br><br>
-        <hr>
-        <strong>Collecte de données :</strong> "Ce site peut collecter certaines données personnelles, telles que les
-        adresses IP,
-        les cookies, et les informations de navigation, dans le but d'améliorer l'expérience utilisateur. Ces
-        données ne seront jamais vendues ou partagées avec des tiers sans votre consentement explicite."<br><br>
-        <hr>
-        <strong>Limitation de responsabilité :</strong> "Nous nous efforçons de fournir des informations précises et à
-        jour sur ce
-        site, mais nous ne pouvons garantir l'exactitude ou l'exhaustivité de ces informations. En aucun cas, nous
-        ne serons responsables des dommages directs, indirects, accessoires, spéciaux ou consécutifs résultant de
-        l'utilisation ou de l'impossibilité d'utiliser ce site."<br><br>
-        <hr>
-        <strong>Juridiction :</strong> "Ce site et son contenu sont régis par les lois en vigueur en France. Tout
-        litige découlant de l'utilisation de ce site sera soumis à la juridiction exclusive des tribunaux de Poitiers."
-        <br><br>
-        <hr>
-        <strong>Modifications :</strong> "Nous nous réservons le droit de modifier ces mentions légales à tout moment et
-        sans
-        préavis. Il est de votre responsabilité de consulter régulièrement cette page pour prendre connaissance de
-        toute mise à jour."<br><br>
-
-
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="white-button fa fa-close" data-dismiss="modal"> Close</button>
+      $(window).scroll(function () {
+        checkSection();
+      });
+    </script>
+  </body>
+  <div
+    class="modal fade"
+    id="exampleModal"
+    tabindex="-1"
+    role="dialog"
+    aria-labelledby="exampleModalLabel"
+    aria-hidden="true"
+    style="z-index: 999999999999"
+  >
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title" id="exampleModalLabel">Mention Legal</h2>
+          <button
+            type="button"
+            class="close"
+            data-dismiss="modal"
+            aria-label="Close"
+          >
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <strong>Droits d'auteur :</strong> "Tous les contenus, y compris mais
+          sans s'y limiter, les textes, les images, les vidéos et les graphiques
+          présents sur ce site sont la propriété intellectuelle de leurs
+          propriétaires respectifs et sont protégés par les lois internationales
+          sur le droit d'auteur."<br /><br />
+          <hr />
+          <strong>Utilisation des contenus :</strong> "Aucun contenu de ce site
+          ne peut être reproduit, distribué, ou transmis sous quelque forme que
+          ce soit sans l'autorisation écrite préalable de leurs propriétaires
+          respectifs."<br /><br />
+          <hr />
+          <strong>Liens externes :</strong> "Ce site peut contenir des liens
+          vers des sites web externes dont nous n'assumons aucune responsabilité
+          quant au contenu ou à la politique de confidentialité. L'inclusion de
+          tels liens ne signifie pas une approbation de leur contenu."<br /><br />
+          <hr />
+          <strong>Collecte de données :</strong> "Ce site peut collecter
+          certaines données personnelles, telles que les adresses IP, les
+          cookies, et les informations de navigation, dans le but d'améliorer
+          l'expérience utilisateur. Ces données ne seront jamais vendues ou
+          partagées avec des tiers sans votre consentement explicite."<br /><br />
+          <hr />
+          <strong>Limitation de responsabilité :</strong> "Nous nous efforçons
+          de fournir des informations précises et à jour sur ce site, mais nous
+          ne pouvons garantir l'exactitude ou l'exhaustivité de ces
+          informations. En aucun cas, nous ne serons responsables des dommages
+          directs, indirects, accessoires, spéciaux ou consécutifs résultant de
+          l'utilisation ou de l'impossibilité d'utiliser ce site."<br /><br />
+          <hr />
+          <strong>Juridiction :</strong> "Ce site et son contenu sont régis par
+          les lois en vigueur en France. Tout litige découlant de l'utilisation
+          de ce site sera soumis à la juridiction exclusive des tribunaux de
+          Poitiers." <br /><br />
+          <hr />
+          <strong>Modifications :</strong> "Nous nous réservons le droit de
+          modifier ces mentions légales à tout moment et sans préavis. Il est de
+          votre responsabilité de consulter régulièrement cette page pour
+          prendre connaissance de toute mise à jour."<br /><br />
+        </div>
+        <div class="modal-footer">
+          <button
+            type="button"
+            class="white-button fa fa-close"
+            data-dismiss="modal"
+          >
+            Close
+          </button>
+        </div>
       </div>
     </div>
   </div>
-</div>
-
 </html>
